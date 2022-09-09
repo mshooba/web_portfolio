@@ -3,6 +3,8 @@
 
 .container {
 	background-color: #FCFCFC;
+	
+	
 	margin: 0 auto;
 	width: 90%;
 	max-width: 1400px;
@@ -14,7 +16,7 @@
 .container > * {
 	font-family: 'Outfit', sans-serif;
 	padding: 20px;
-
+   
 	display: flex;
     justify-content: center ;
     align-items: center;
@@ -37,31 +39,36 @@ h2 {
 	color: #333;
 }
 
+
+
 /* start nav */
 nav {
 	grid-column: 1/3;
 	filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 0, 0, 0.2));
+	
 
 }
 
-ul {
+nav ul {
 	display: flex;
 	border-top: 2px solid #666;
 	width: 100%;
 	justify-content: flex-end;
 }
 
-li {
+nav li,
+section li {
+
 	list-style-type: none;
 	font-size: 14px;
-	margin: 0px;
 	padding: 1.8em;
 
 }
 
-nav a {
+nav a,
+section a {
 	text-decoration: none;
-	border-bottom: 1px solid rgba(0, 0, 0, 0);
+	border-bottom: 2px solid rgba(0, 0, 0, 0);
 	transition: border-bottom 300ms;
 
 
@@ -71,31 +78,17 @@ nav a {
 
 }
 
-/*
- .hidden-color-1:hover{
-	top: 0;
-	margin: 0;
-	transition: border-bottom 200ms;
-	border-bottom: 2px solid orange;
-}
-
-.hidden-color-2:hover{
-	border-bottom: 2px solid rgb(255, 0, 157);
-}
-
-*/
-
  li.hidden-color-1 > a:hover{
-	border-bottom: 1px solid rgb(255, 0, 149);
+	border-bottom: 2px solid #E27D60
  }
  li.hidden-color-2 > a:hover{
-	border-bottom: 1px solid rgb(255, 102, 0);
+	border-bottom: 2px solid #7DC2AD;
  }
  li.hidden-color-3 > a:hover{
-	border-bottom: 1px solid rgb(13, 112, 0);
+	border-bottom: 2px solid #C38D9E
  }
  li.hidden-color-4 > a:hover{
-	border-bottom: 1px solid rgb(0, 102, 255);
+	border-bottom: 2px solid #41B3A3;
  }
 
 
@@ -104,9 +97,10 @@ nav a {
 
 /* start about me  */
 
+
+
 header > *{
 	text-align: center;
-	max-width: 100%;
 	flex: 0 1 400px;
 }
 
@@ -114,28 +108,31 @@ header > *{
 	text-align: justify;
 }
 
-
-
 /* start main section */
 main {
 	flex-wrap: wrap;
 	grid-column: 1/3;
 }
 
-/* targeting children of main with flex grow-shrink-basis 
-CHANGE THIS DEPENDING ON CONTENT - READ MORE ABOUT IT.
-*/
-
 main > * {
 	flex: 1 0 400px;
 }
 
 
+section > div > p {
+	max-width: 35%;
+	text-align: left;
+}
 
+section li {
+    display: inline-flex;
+	margin: 0 auto;
+	padding: 5px;
+	border-top: 0px;
+	
+}
 
-
-
-
+section a { text-decoration: none;}
 
 
 
