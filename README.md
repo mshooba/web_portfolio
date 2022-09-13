@@ -1,5 +1,5 @@
 # web_portfolio
- - My perosonal, on going portfolio showcasing
+## My perosnal, on going, portfolio showcasing:
 1. Information about myself
 2. Personal and or academic projects
 3. Design Skills (fun time for me)
