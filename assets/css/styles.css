@@ -1,6 +1,6 @@
 .container {
-	background-color:#bcf0e1;
-	color: #444;
+	background-color:#984efa;
+	color: rgb(238, 238, 238);
 
 	margin: 0 auto;
 	width: 90%;
@@ -65,7 +65,7 @@ a {
 	transition: border-bottom 250ms;
 
 	font-size: 1.1em;
-	color: #666;
+	color: rgb(240, 240, 240);
 	text-transform: uppercase;
 }
 
