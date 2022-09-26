@@ -147,6 +147,10 @@ height: 75px;
 }
 
 
+section.projects {
+	grid-column: 1/3 2/2;
+}
+
 
 
 
